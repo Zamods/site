@@ -1,5 +1,31 @@
-baseurl: "/kross-jekyll" # the subpath of your site, e.g. /blog
+title: House of Zamods
+description: All in one website for zamods activity, blog, portfolio, products, offering & links 
+baseurl: "/beta" # the subpath of your site, e.g. /blog
 url: "https://zamods.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Author information
+author:
+  name: Zamods
+  email: zamods@altmails.com
+  bio: Just a dude with a broom and balls.
+  description: Dream is dream just like cream is cream but cream can be ice cream, milk cream, whip cream but only dream is absolute.
+
+# Social media links
+social:
+  github: Zamods
+  linkedin: ssiawa
+  instagram: sdomaz
+
+# Theme settings
+theme_settings:
+  dark_mode: true
+  search: true
+  newsletter: false
+  comments: false
+  google_analytics: true
+
+# Google Analytics
+google_analytics: G-RZW6LCL2B1
 
 # Build settings
 markdown: kramdown
