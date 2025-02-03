@@ -1,7 +1,7 @@
 title: House of Zamods
 description: All in one website for zamods activity, blog, portfolio, products, offering & links 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://zamods.github.io/site" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/site" # the subpath of your site, e.g. /blog
+url: "https://zamods.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author information
 author:
@@ -40,7 +40,7 @@ compress_html:
 # Pages Path
 defaults:
   - scope:
-      path: "_pages"
+      path: "/_pages"
     values:
       permalink: /:basename:output_ext
 
